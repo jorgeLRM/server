@@ -1,5 +1,6 @@
 package io.getarrays.server.model;
 
+import io.getarrays.server.enumeration.Status;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
@@ -21,5 +22,5 @@ public class Server {
     private String memory;
     private String type;
     private String imageUrl;
-    private String status;
+    private Status status;
 }
